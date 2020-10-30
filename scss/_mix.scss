@@ -1,0 +1,30 @@
+@mixin hide-text {
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@mixin item-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin d-f {
+    display: flex;
+    display: -ms-flexbox;
+    align-items: center;
+}
+
+@mixin jc-center {
+    justify-content: center;
+}
+
+@mixin jc-sb {
+    justify-content: space-between;
+}
+
+@mixin fw-wrap {
+    flex-wrap: wrap;
+}

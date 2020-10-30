@@ -1,0 +1,63 @@
+/*font-weight*/
+$Medium : 500 ;
+$Bold : 700 ;
+$Black : 900 ;
+
+/*color*/
+$color-white : #ffffff;
+$color-black : #000000;
+$color-red : #891818;
+$color-gray : #707070;
+
+/*font-weight*/
+.font-w500 {
+    font-weight: $Medium;
+}
+.font-w700 {
+    font-weight: $Bold;
+}
+.font-w900 {
+    font-weight: $Black;
+}
+
+/*margin-top*/
+.mt-1 {
+    margin-top: 16px;
+}
+.mt-2 {
+    margin-top: 24px;
+}
+.mt-3 {
+    margin-top: 32px;
+}
+.mt-4 {
+    margin-top: 40px;
+}
+
+/*line-height*/
+.lh-1 {
+    line-height: 36px;
+}
+.lh-2 {
+    line-height: 30px;
+}
+
+/*padding-bottom*/
+.pd-1 {
+    padding-bottom: 160px;
+}
+
+/*text-color*/
+.text-white {
+    color: $color-white;
+}
+
+/*background-color*/
+.bg-black {
+    background-color: $color-black;
+    border: 1px solid #000;
+}
+
+.ta-left {
+    text-align: left;
+}
