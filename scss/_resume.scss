@@ -1,0 +1,104 @@
+$color-white : #ffffff;
+$color-black : #000000;
+$color-red : #891818;
+$color-gray : #707070;
+
+header {
+    height: 958px;
+    background-image: url(../images/resume/banner.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.banner-text {
+    @include d-f;
+    flex-direction: column;
+    padding: 356px 0px 268px 0px;
+    span {
+        font-size: 24px;
+        line-height: 42px;
+    }
+}
+.media {
+    @include d-f;
+    @include jc-center;
+    margin-top: 48px;
+    a {
+        display: block;
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+        color: $color-white;
+        background-color: $color-red;
+        padding: 10px 0px;
+        margin-right: 16px;
+        border-radius: 10px;
+    }
+    a:hover {
+        background-color: $color-white;
+        color: $color-red;
+    }
+}
+
+.profile {
+    padding-bottom: 56px; 
+    img {
+        display: inline-block;
+    }
+}
+.profile-list {
+    width: 384px;
+    border-top: 1px solid $color-black;
+    margin: 0 auto;
+    margin-top: 24px;
+    li {
+        margin-top: 32px;
+        i {
+            color: $color-red;
+            margin-right: 16px;
+        }
+    }
+
+}
+
+.brand-detail {
+    .brand-img {
+        margin-top: 68px;
+        @include d-f;
+        @include fw-wrap;
+        @include jc-center;
+        li {
+            margin-top: 40px;
+        }
+        li:first-child {
+            margin-top: 0px;
+        }
+        li:nth-child(2) {
+            margin-right: 24px;
+        }
+    }
+}
+
+.work-img {
+    @include d-f;
+    @include fw-wrap;
+    @include jc-sb;
+    margin-top: 56px;
+    p {
+        margin-top: 16px;
+    }
+}
+
+.contact {
+    padding-bottom: 80px;
+}
+.contact-info {
+    a {
+        display: inline-block;
+        color: $color-white;
+        text-decoration: none;
+    }
+    a:hover {
+        color: $color-gray;
+    }
+}

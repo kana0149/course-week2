@@ -1,0 +1,251 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/*讓img自適應寬，防止讓網頁破版*/
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  list-style: 94px;
+}
+
+h2 {
+  font-size: 64px;
+  line-height: 75px;
+  margin-top: 64px;
+}
+
+p, li {
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*font-weight*/
+/*color*/
+/*font-weight*/
+.font-w500 {
+  font-weight: 500;
+}
+
+.font-w700 {
+  font-weight: 700;
+}
+
+.font-w900 {
+  font-weight: 900;
+}
+
+/*margin-top*/
+.mt-1 {
+  margin-top: 16px;
+}
+
+.mt-2 {
+  margin-top: 24px;
+}
+
+.mt-3 {
+  margin-top: 32px;
+}
+
+.mt-4 {
+  margin-top: 40px;
+}
+
+/*line-height*/
+.lh-1 {
+  line-height: 36px;
+}
+
+.lh-2 {
+  line-height: 30px;
+}
+
+/*padding-bottom*/
+.pd-1 {
+  padding-bottom: 160px;
+}
+
+/*text-color*/
+.text-white {
+  color: #ffffff;
+}
+
+/*background-color*/
+.bg-black {
+  background-color: #000000;
+  border: 1px solid #000;
+}
+
+.ta-left {
+  text-align: left;
+}
+
+header {
+  height: 958px;
+  background-image: url(../images/resume/banner.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.banner-text {
+  display: flex;
+  display: -ms-flexbox;
+  align-items: center;
+  flex-direction: column;
+  padding: 356px 0px 268px 0px;
+}
+.banner-text span {
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.media {
+  display: flex;
+  display: -ms-flexbox;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px;
+}
+.media a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #891818;
+  padding: 10px 0px;
+  margin-right: 16px;
+  border-radius: 10px;
+}
+.media a:hover {
+  background-color: #ffffff;
+  color: #891818;
+}
+
+.profile {
+  padding-bottom: 56px;
+}
+.profile img {
+  display: inline-block;
+}
+
+.profile-list {
+  width: 384px;
+  border-top: 1px solid #000000;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+.profile-list li {
+  margin-top: 32px;
+}
+.profile-list li i {
+  color: #891818;
+  margin-right: 16px;
+}
+
+.brand-detail .brand-img {
+  margin-top: 68px;
+  display: flex;
+  display: -ms-flexbox;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.brand-detail .brand-img li {
+  margin-top: 40px;
+}
+.brand-detail .brand-img li:first-child {
+  margin-top: 0px;
+}
+.brand-detail .brand-img li:nth-child(2) {
+  margin-right: 24px;
+}
+
+.work-img {
+  display: flex;
+  display: -ms-flexbox;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 56px;
+}
+.work-img p {
+  margin-top: 16px;
+}
+
+.contact {
+  padding-bottom: 80px;
+}
+
+.contact-info a {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+}
+.contact-info a:hover {
+  color: #707070;
+}
